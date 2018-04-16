@@ -1,3 +1,47 @@
 body {
     background-color: #1a3446;
 }
+
+#title_div {
+    text-align: center;
+}
+
+#title_div > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: 50px 50px 0 50px;
+}
+
+#personen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#personen > div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #5b5b5b;
+    margin: 50px;
+    cursor: pointer;
+}
+
+#personen > div:hover {
+    border: 2px solid #a1d4f2;
+}
+
+#link_div {
+    text-align: center;
+}
+
+#link_div > p > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}
