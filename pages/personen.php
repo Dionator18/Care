@@ -11,17 +11,22 @@
             <script src="js/index.js"></script>
     </head>
     <body>
+        <header>
+            <div class="align_logo">
+                <img class="logo" src="../img/logo2.0.png">
+            </div>    
+        </header>    
         <div id="title_div">
-            <h1>Wie bent u?</h1>
+            <h1>Who is using Care?</h1>
         </div>    
         <div id="personen">
             <div></div>
             <div></div>
             <div></div>
-            <div></div>
+            <div><img style="margin: 25px;" src="../img/plusje.svg"></div>
         </div>
         <div id="link_div">
-            <p><a href="#">+ Persoon Toevoegen</a></p>
+            <p><a href="#">Continue</a></p>
         </div>    
     </body>
 </html>
